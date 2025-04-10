@@ -20,6 +20,9 @@ def lambda_handler(event, context):
         elif op == "*":
             result = number1 * number2
         elif op == "/":
+            if number2 == 0:
+            result = "Erreur : division par zéro"
+        else:
             result = number1 / number2
         else:
             result = "Operation non supportée"
