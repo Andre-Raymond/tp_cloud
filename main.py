@@ -6,7 +6,7 @@ from cdktf_cdktf_provider_aws.lambda_event_source_mapping import LambdaEventSour
 from cdktf_cdktf_provider_aws.sqs_queue import SqsQueue
 from cdktf_cdktf_provider_aws.cloudwatch_log_group import CloudwatchLogGroup
 
-# Socard André-Raymond
+# Socard André-Raymond et Errafii Mohamed
 class GradedLabStack(TerraformStack):
     def __init__(self, scope: Construct, id: str):
         super().__init__(scope, id)
